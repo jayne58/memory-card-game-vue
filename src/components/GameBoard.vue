@@ -1,7 +1,6 @@
 <script>
 import CardView from "./CardView.vue";
 import cardData from "../data/memoryCards8.js";
-import $ from "jquery";
 
 export default {
   components: {
@@ -98,9 +97,7 @@ matchCards(img1, img2) {
   }, 1200);
 },
 
-gameOver() {
-  $(".modal").modal("show");
-}
+gameOver() {}
 
 },
 };
